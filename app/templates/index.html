@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<main role="main">
+    <div class="px-4 pt-2 my-5 text-center border-bottom">
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="/static/image.jpg" alt="Example image"
+                     height="200px" width="200px" >
+            </div>
+          </div>
+      <br>
+      <div class="col-sm-8 mx-auto">
+        <h1>Welcome to Thinker Website</h1>
+        <p>This is Thinker Blog.<br> This website is developed in Python Flask Web.<br> Here your every thoughts are welcome. </p>
+        <p>For more information about me, Visit <a href="https://linkedin.in/nishaanth-k">LinkedIn</a> page. </p>
+        <p>
+          <a class="btn btn-primary" href="/posts" role="button">View our Blogs &raquo;</a>
+        </p>
+      </div>
+    </div>
+  </main>
+{% endblock %}
